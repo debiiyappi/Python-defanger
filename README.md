@@ -9,7 +9,8 @@ Just a quick lightweight Python tool I threw together to help with daily triage.
 Right now, it converts standard links like http:// or https://" into hxxp:// and hxxps://, and wraps all domain dots in [] brackets.
 
 ## Why I made this
-I was tracking a malicious actor hosting fake RMM/Teams updates and got tired of manually editing strings and swapping out characters in Notepad just to safely log indicators of compromise (IoCs). 
+This is a fun project while also actually helping me While i was doing a malware analysis
+so why not make a repo about it in Github?.
 
 ## How it works
 It's super straightforward. Run the script, drop your raw target link into the input prompt, and it will immediately spit out the clean, defanged version in your terminal.
